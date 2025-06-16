@@ -7,7 +7,7 @@
             <li><router-link to="/servizi" :class="{ active: $route.path === '/servizi' }">Servizi</router-link></li>
             <li><router-link to="/contatti" :class="{ active: $route.path === '/contatti' }">Contatti</router-link></li>
             <li class="float-right"><router-link to="/commenti"
-                    :class="{ active: $route.path === '/commenti' }">Commenti</router-link></li>
+                :class="{ active: $route.path === '/commenti' }">Commenti</router-link></li>
         </ol>
     </nav>
 </template>

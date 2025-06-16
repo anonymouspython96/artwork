@@ -22,10 +22,7 @@ export default {
 </script>
 
 <template>
-    <Navbar />
-    <div v-if="isHome">
-        <Home />
-    </div>
+   <Navbar />
     <div class="content">
         <router-view />
     </div>

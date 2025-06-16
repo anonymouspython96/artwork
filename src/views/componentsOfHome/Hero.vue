@@ -3,9 +3,9 @@
 </script>
 
 <template>
-    Home ma è un pezzo del puzzle ( quindi hero )
+    <h1>Qua andrà il titolo!</h1>
 </template>
 
-<style>
+<style scoped>
 
 </style>
