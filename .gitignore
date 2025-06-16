@@ -28,3 +28,6 @@ coverage
 *.sw?
 
 *.tsbuildinfo
+
+# Occhio a non inserire file che potrebbero rendere invisibile una parte del codice e romperlo
+
