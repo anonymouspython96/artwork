@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <h1>Ciao Elena.</h1>
+  <h1>portfolio.</h1>
 </template>
 
 <style scoped>
