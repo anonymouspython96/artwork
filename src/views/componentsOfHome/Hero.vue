@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <h1>Qua andrà il titolo!</h1>
+    <h1>Hero image verrà qua</h1>
 </template>
 
 <style scoped>
