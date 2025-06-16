@@ -1,1 +1,12 @@
 /* qui verrà messa la root di colori */
+
+:root {
+    --rosa-antico: #D3746E;
+    --ruggine: #AC1A0D;
+    --verde-militare: #3F5646;
+    --verde-acqua-luminoso: #B7DCC8;
+    --verde-acqua-meno-luminoso: #89B4AA;
+    --giallo-verdognolo: #F4EFB8;
+    --fanta-black: #000000;
+    --fanta-white: #e5e3dc;
+}
