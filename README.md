@@ -6,7 +6,7 @@ Titolo del README: Parliamone   -   Scopo: Feedback   -   Data di inizio del pro
 
         Commento di Emy: 
 
-            1-
+            1- Ciao Ele, ho messo un'immagine di hero provvisoria. Se mi dai quella che volevi tu facciamo un passo avanti.
 
         Modifiche desiderate di Ele: 
         
