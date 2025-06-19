@@ -2,8 +2,8 @@
                  
     1. Pagina iniziale = Con scritto:
 
-      NavBar con: Chi sono - Servizi - Contatti( contatti di Ele e collaborations space ) - Commenti ( visibili solo a Elena ) - ( la home è la home non è Chi sono ;)
-      Portfolio di Elena - Hero: ( immagine ancora non scelta )
+      NavBar con: Chi sono - Servizi - Contatti( contatti di Ele e collaborations space ) - Commenti ( visibili solo a Elena ) - ( la home è la home non è Chi sono ;) (: DONE :)
+      Portfolio di Elena - Hero: ( immagine ancora non scelta ) (: ALMOST : => just the image to set!)
       Tre categorie: [grafic design - illustrazioni - altri progetti 
         ( per un UX efficace creare link di navigazione ) ]
       
