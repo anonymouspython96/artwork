@@ -16,7 +16,7 @@ export default {
         </h1>
 
         <article>
-            <section>
+            <section class="card">
                 <h2>Graphic Design</h2>
                 <ul>
                     <li>Logotipi</li>
@@ -24,7 +24,7 @@ export default {
                 </ul>
             </section>
 
-            <section>
+            <section class="card">
                 <h2>Illustrazioni</h2>
                 <ul>
                     <li>Digitali</li>
@@ -32,7 +32,7 @@ export default {
                 </ul>
             </section>
 
-            <section>
+            <section class="card">
                 <h2>Altri Progetti</h2>
                 <ul>
                     <li>Altri…</li>
@@ -46,7 +46,6 @@ export default {
 
 <style scoped>
 section {
-    height: 1000px;
     display: flex;
     flex-direction: column;
 }
@@ -57,9 +56,34 @@ h1 {
     margin: 10rem 0;
     color: var(--rosa-antico);
 }
+h2 {
+    font-size: 2.5rem;
+}
+
 article {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: center;
+    gap: 2.5rem;
+    margin-bottom: 10rem;
+}
+section .card {
+    height: 30rem;
+    width: 30rem;
+}
+.card {
+    padding: 6rem;
+    border: solid var(--verde-acqua-meno-luminoso) 0.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--verde-acqua-luminoso);
+    color: var(--ruggine);
+}
+ul {
+    list-style: none;
+}
+li {
+    margin: 5rem 0;
+    text-align: center;
 }
 </style>

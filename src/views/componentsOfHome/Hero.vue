@@ -7,7 +7,8 @@ export default {
 
 <template>
     <article class="img">
-        <!-- Contenuto dell'hero a piacere, da discutere. -->
+        <!-- Contenuto dell'hero a piacere -->
+         <!-- Shadow da creare per fluidità dei contenuti -->
     </article>
 </template>
 
