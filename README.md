@@ -1,35 +1,15 @@
-# .
+Titolo del README: Parliamone   -   Scopo: Feedback   -   Data di inizio del progetto: 16/06/2025
 
-This template should help get you started developing with Vue 3 in Vite.
+    N.B. = Mantenere spaziature e logica dei contenuti in inserimento come da: Commento di Emy qui sotto.
+    N.B.B. = Modificare solo la parte delle "Modifiche di Ele":
 
-## Recommended IDE Setup
+        Commento di Emy: 
+            
+            1- "Osservazione al punto nr. 1" = Questo è esempio di scambio di feedback da remoto tecnico.
+            2- "Ossevazione al punto nr. 2" = Certamente basta scrivere una modifica da te desiderata sotto il punto 2 delle "Modifiche di Ele" che vorresti fare e poi andare in source control [ è un icona a sinistra di Questo Software ( VSC ) che sembra il condividi del telefono ] - cliccare il più ( + ) - inserire una breve descrizione nella casella di input e cliccare commit - infine cliccare Publish Branch.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+        Modifiche di Ele: 
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+            1- Mi faresti un esempio di feedback da remoto?
+            2- Vorrei però un esempio pratico di feedback. Me lo potresti fare?
+            3- // Inserire richiesta di modifica //
