@@ -1,0 +1,17 @@
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Projects.jsx
+│   ├── Services.jsx
+│   ├── Testimonials.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+├── App.js
+├── index.js
+├── styles/
+│   ├── global.css
+│   └── App.css
+└── assets/
+    └── images/ (placeholder images)
