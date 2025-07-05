@@ -1,11 +1,9 @@
-import { createApp } from 'vue'
+import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
+import '@fortawesome/fontawesome-free/css/all.min.css'
 
-// Importa stili globali
-import '@/assets/scss/main.scss'
+Vue.config.productionTip = false
 
-// Importa Font Awesome
-import '@fortawesome/fontawesome-free/css/all.css'
-
-createApp(App).use(router).mount('#app')
+new Vue({
+  render: (h) => h(App),
+}).$mount('#app')
