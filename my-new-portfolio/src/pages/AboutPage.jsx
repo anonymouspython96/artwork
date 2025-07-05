@@ -1,15 +1,8 @@
-import { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
+import './AboutPage.css';
 
-const About = () => {
+export default function AboutPage() {
   const [isVisible, setIsVisible] = useState(false);
-  const skills = [
-    "Illustrazione Digitale",
-    "Graphic Design",
-    "3D Modeling",
-    "Animazione",
-    "Brand Identity",
-    "Art Direction"
-  ];
 
   useEffect(() => {
     const checkScroll = () => {
@@ -32,28 +25,26 @@ const About = () => {
   return (
     <section className="section about-section" id="about">
       <div className="container">
+        <div className="section-header">
+          <h2>Chi sono</h2>
+          <p className="section-subtitle">Artista digitale e illustratrice con una passione per la creatività senza confini</p>
+        </div>
+
         <div className="about-content">
           <div className={`about-image fade-in ${isVisible ? 'visible' : ''}`}>
-            <img 
-              src="https://via.placeholder.com/500x600/6c5ce7/ffffff?text=About+Me" 
-              alt="Elena Rossi" 
-            />
+            <div className="image-placeholder"></div>
           </div>
 
           <div className={`about-text fade-in ${isVisible ? 'visible' : ''}`}>
-            <h2>Ciao, sono Elena</h2>
-            <p>Artista digitale e illustratrice con base a Milano. Con oltre 10 anni di esperienza nel settore creativo...</p>
-
-            <div className="skills">
-              {skills.map((skill, index) => (
-                <span key={index} className="skill">{skill}</span>
-              ))}
-            </div>
+            <h3>Ciao, sono Elena Rossi</h3>
+            <p>
+              Con oltre 10 anni di esperienza nel settore creativo, ho trasformato la mia passione per l'arte digitale in una carriera di successo. 
+              La mia formazione accademica in Belle Arti e Design mi ha fornito una solida base teorica, mentre anni di esperienza pratica mi hanno 
+              permesso di affinare uno stile unico che combina tecnica tradizionale e innovazione digitale.
+            </p>
           </div>
         </div>
       </div>
     </section>
   );
-};
-
-export default About;
+}

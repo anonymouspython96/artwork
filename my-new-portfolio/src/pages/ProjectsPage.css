@@ -1,0 +1,69 @@
+/* Stili specifici per la pagina Projects */
+.projects-section {
+  background: #f9f9ff;
+}
+
+.projects-filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.filter-btn {
+  background: white;
+  color: var(--dark);
+  border: 2px solid #eee;
+  padding: 8px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.filter-btn.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.project-item {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.project-image {
+  height: 250px;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #6c5ce7, #a29bfe);
+}
+
+.project-info {
+  padding: 25px;
+}
+
+.project-title {
+  margin: 0 0 10px 0;
+  color: var(--dark);
+  font-size: 1.4rem;
+}
+
+.project-description {
+  margin: 0;
+  color: #666;
+  line-height: 1.6;
+}

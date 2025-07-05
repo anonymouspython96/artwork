@@ -77,3 +77,23 @@ body {
     padding: 60px 0;
   }
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-list a {
+  color: var(--dark);
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: var(--primary);
+}
+
+/* Stile per il link attivo */
+.nav-list a.active {
+  color: var(--primary);
+  font-weight: bold;
+}

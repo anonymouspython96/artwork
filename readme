@@ -1,15 +1,14 @@
 src/
+|__ assets/images
 ├── components/
-│   ├── Header.jsx
-│   ├── Hero.jsx
-│   ├── About.jsx
-│   ├── Projects.jsx
-│   ├── Services.jsx
-│   ├── Testimonials.jsx
-│   ├── Contact.jsx
-│   └── Footer.jsx
-├── App.js
+│   ├── Header/Heade.jsx & Header.css
+    |__ ScrollToTop/index.js & ScrollToTop.jsx
+│   ├── Hero.jsx & Hero.css
+│   └── Footer.jsx & Footer.css
+|___pages/AboutPage.jsx & AboutPage.css & ContactPage.jsx & ContactPage.css (da fare) & HomePage.jsx & HomePage.css(da fare) & ProjectsPage.jsx & ProjectsPage.css(da fare) & ServicePage.jsx & ServicePage.css (da fare)
+├── App.jsx
 ├── index.js
+|__index.css
 ├── styles/
 │   ├── global.css
 │   └── App.css
