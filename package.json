@@ -13,10 +13,13 @@
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@types/node": "^24.0.10",
     "@vitejs/plugin-vue": "^5.2.3",
+    "path": "^0.12.7",
     "postcss": "^8.5.6",
     "postcss-preset-env": "^10.2.4",
     "sass": "^1.89.2",
+    "typescript": "^5.8.3",
     "viewport-units-buggyfill": "^0.6.2",
     "vite": "^6.2.4",
     "vite-plugin-vue-devtools": "^7.7.2"
