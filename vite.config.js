@@ -1,8 +1,15 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
-  optimizeDeps: {
-    noDiscovery: true, // ← Nuova sintassi corretta
-    include: [], // ← Array vuoto invece di disabled
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      '@': '/src'
+    }
   },
-})
+  server: {
+    host: true,
+    port: 5173
+  }
+});
