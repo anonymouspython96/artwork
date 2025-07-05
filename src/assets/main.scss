@@ -1,0 +1,60 @@
+// Variabili
+$primary: #1a1a1a;
+$secondary: #e63946;
+$light: #f8f9fa;
+$dark: #212529;
+$transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+// Reset e base
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%; // 1rem = 10px
+}
+
+body {
+  font-family:
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: $primary;
+  background-color: $light;
+  overflow-x: hidden;
+}
+
+// Animazioni
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+// Layout
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section {
+  padding: 12rem 0;
+  position: relative;
+}
